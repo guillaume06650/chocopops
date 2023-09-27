@@ -64,7 +64,6 @@ Player.prototype.move = function () {
     var moveTo = new THREE.Vector3(
         this.speed * Math.cos(this.direction) + this.position.x,
         this.speed * Math.sin(this.direction) + this.position.y,
-        this.graphic.position.z
     );
 
     this.position = moveTo;

@@ -95,7 +95,6 @@ function player_falling()
             && (y > tileY) 
             && (y < mtileY))
         {
-            console.log(x+", "+y);
             player1.dead();
             break;
         }
